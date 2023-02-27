@@ -13,7 +13,7 @@ a specific spirit, or search ingredients the user already has depending on the u
 ## Screenshots
 
 #### Home
-![Home](/readme_images/home gif.gif "Home")
+![Home](/readme_images/home.gif "Home")
 
 #### By Spirit
 ![Spirits](/readme_images/spirits.gif "Spirits")
