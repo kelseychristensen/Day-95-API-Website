@@ -1,16 +1,17 @@
 {% extends 'bootstrap/base.html' %}
-{% import "bootstrap/wtf.html" as wtf %}
 
 {% block content %}
 {% include "header.html" %}
 
 <body>
 
-    <div class="outer-container">
+    <div class="title_container">
     <h1>Bar Cart</h1>
 
-<div class="outer-container-spirits">
-    <div class="container-spirits">
+
+<div class="container">
+    <div class="inner-container-unpadded">
+
 <div class="row">
 
     <div class="col-1">
@@ -41,6 +42,14 @@
 
 </div>
 
+<div class="outer_for_shaker">
+   <div class="inner_for_shaker">
+      <a href="{{ url_for('home') }}"><img class="shaker" src="{{ url_for('static', filename='images/shaker.png') }}"></a>
+   </div>
+</div>
+
+
 </body>
+
 {% include "footer.html" %}
 {% endblock %}
